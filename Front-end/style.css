@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.containerReport {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.report {
+    background-color: black;
+    min-height: 300px;
+}
+
+.text {
+    /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: 10px 0px 15px;
+}
+
+.leaderBoard,
+.forgetPassword,
+.expenses,
+.signUp,Expense
+.logIn {
+    background-color: aqua;
+    border-radius: 2%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    padding: 50px 35px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.leaderBoard {
+    min-height: 500px;
+    border-radius: 1%;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    font-family: Oswald;
+    border-bottom: 5px solid black;
+}
+
+#saving,
+#total {
+    padding: 5px 0px;
+}
+
+#totalInc {
+    padding: 5px 0px;
+    position: relative;
+    left: 443.5px;
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+#totalExp {
+    padding: 5px 0px;
+    position: relative;
+    left: 577.5px;
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+.rank {
+    width: 15%;
+    border-right: 5px solid black;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.description {
+    width: 35%;
+    border-right: 5px solid black;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.user {
+    width: 30%;
+    border-right: 5px solid black;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.category {
+    width: 25%;
+    border-right: 5px solid black;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.amountSpent {
+    width: 55%;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.income {
+    width: 20%;
+    border-right: 5px solid black;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.expense {
+    width: 20%;
+    padding: 5px 0px;
+    padding-left: 10px;
+}
+
+.logInHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.containerReport h1,
+.container h1 {
+    font-size: 54px;
+    /* font-family: Limelight; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(113, 113, 238);
+    text-align: center;
+}
+
+.findInHeader {
+    display: block;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formRegistration {
+    text-align: center;
+}
+
+label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.forgetPassword form input,
+.expenses form input,
+.expenses form select,
+.logIn form input,
+.signUp form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: rgb(196, 143, 143);
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+#logInForm input{
+    margin-top: 0;
+} 
+
+.anchor,
+.submit {
+    font-weight: bold;
+    font-family: Arial;
+    width: 45%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color:rgb(113, 113, 238) ;
+    /* color: rgb(113, 113, 238); */
+    border: 1px solid rgb(113, 113, 238);
+    border-radius: 7px;
+    padding: 7px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.anchor:hover,
+.submit:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.forgotPasswordButton {
+    text-decoration: none;
+    color:rgb(113, 113, 238);
+    margin-left: 170px;
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.forgotPasswordButton:hover {
+    text-decoration: underline;
+}
+
+.passwordButton {
+    position: relative;
+    left: 57px;
+    top: 40px;
+}
+
+#expenseButton {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#expenseList {
+    margin-top: 10px;
+}
+
+.expenseItem {
+    margin-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 4px 2px;
+}
+
+.expenseItemAmount {
+    display: inline-block;
+    width: 20%;
+}
+
+.expenseItemDesc {
+    display: inline-block;
+    width: 45%;
+}
+
+.expenseItemCat {
+    display: inline-block;
+    width: 20%;
+}
+
+.expenseItemDel {
+    display: inline-block;
+    width: 14.5%;
+    background-color: rgb(5, 206, 206);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 0px;
+}
+
+.expenseItemDel:hover {
+    background-color: rgb(13, 241, 241);
+}
+
+.expenseItemId {
+    display: none;
+}
+
+#rzp-button1 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(113, 113, 238);
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 28px;
+    font-weight: bold;
+}
+
+#rzp-button1:hover {
+    background-color: GOLD;
+    color: white;
+}
+
+#leaderBoard {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(218, 185, 0);
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 28px;
+    font-weight: bold;
+    display: none;
+}
+
+#report {
+    position: fixed;
+    top: 10px;
+    right: 155px;
+    background-color: rgb(218, 185, 0);
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 28px;
+    font-weight: bold;
+    display: none;
+}
+
+
+/* PREMIUM USER */
+
+body.active {
+    background-image: url('./ColoredShapes.svg');
+}
+
+.containerReport h1.active,
+.container h1.active{
+    color: GOLD;
+}
+
+.expenses.active {
+    box-shadow: 0px 0px 20px rgba(50, 235, 14, 1);
+}
+
+.expenses form input.active,
+.expenses form select.active {
+    border: 2px solid gold;
+}
+
+.submit.active {
+    color: rgb(241, 205, 0);
+    border: 2px solid gold;
+}
+
+.submit.active:hover {
+    background-color: gold;
+    color: white;
+}
+
+#leaderBoard.active {
+    display: flex;
+}
+
+#leaderBoard.active:hover {
+    background-color: gold;
+}
+
+#report.active {
+    display: flex;
+}
+
+#report.active:hover {
+    background-color: gold;
+}
+
+.expenseItem.active {
+    border: 2px solid gold;
+}
+
+.expenseItemDel.active {
+    background-color: rgb(13, 241, 241);
+    color: black;
+}
+
+.expenseItemDel.active:hover {
+    background-color: rgb(5, 206, 206)
+}
+
+/* PREMIUM NOTIFICATION */
+
+.notifcationContainer {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.notifcationContainer.active {
+    display: flex;
+}
+
+.notifcation {
+    background-color: rgb(113, 113, 238);
+    width: 650px;
+    height: 350px;
+    border-radius: 6px;
+    color: white;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.notifcation h1 {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.notifcation h2 {
+    margin-bottom: 0;
+}
+
+.notfButton {
+    border: 2px solid white;
+    background-color: rgb(113, 113, 238);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 3px;
+}
+
+.notfButton:hover {
+    background-color: white;
+    color: rgb(113, 113, 238);
+    border: 2px solid white;
+}
+

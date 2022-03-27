@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses - sign up</title>
+    <link rel="stylesheet" href="../style.css"></link>
+    <script src="signup.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="signUp">
+            <span class="signUpHeader">
+                <span class="icon" style="font-family:sans-serif;">Welcome to Expenses</span>
+                <h1>Create your Expenses Account</h1>
+            </span>
+            <form class="formRegistration" id="formRegistration">
+                <input type="text" name="username" placeholder="Name" id="name" required " />
+                <input type="email" name="email" placeholder="Email" id="email" required />
+                <input type="text" name="phoneNumber" placeholder="Phone number" id="number" required />
+                <input type="password" name="password" placeholder="Password"id="pass" required />
+                <button type="submit" class="submit">SIGN UP</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
